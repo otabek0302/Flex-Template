@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    padding: 0 80px;
+}
+
+.row {
+    display: flex;
+}
+
+/*/////////////////// margin__padding ////////////////////////////*/
+.p_top_30 {
+    padding-top: 30px;
+}
+
+.p_bot_30 {
+    padding-bottom: 30px;
+}
+
+.m_top_30 {
+    margin-top: 30px;
+}
+
+.m_bot_30 {
+    margin-bottom: 30px;
+}
+
+/*////////////////// margin__padding ////////////////////////////*/
+
+/*//////////////// justify-content /////////////////////////// */
+.j_con_center {
+    justify-content: center;
+}
+
+.j_con_between {
+    justify-content: space-between;
+}
+
+.j_con_around {
+    justify-content: space-around;
+}
+
+.j_con_evenly {
+    justify-content: space-evenly;
+}
+
+.j_con_start {
+    justify-content: flex-start;
+}
+
+.j_con_end {
+    justify-content: flex-end;
+}
+
+/*///////////////// justify-content /////////////////////////// */
+
+/* ///////////////align-items///////////////////////////////// */
+.a_it_center {
+    align-items: center;
+}
+
+.a_it_flex-end {
+    align-items: flex-end;
+}
+
+.a_it_flex-start {
+    align-items: flex-start;
+}
+
+/* ///////////////align-items///////////////////////////////// */
+
+
+.a_con_between {
+    align-content: space-between;
+}
+
+
+.t_al_center {
+    text-align: center;
+}
+
+
+.f_wrap {
+    flex-wrap: wrap;
+}
+
+
+.f_nowrap {
+    flex-wrap: nowrap;
+}
+
+
+.gap_10 {
+    gap: 10px;
+}
+
+
+/* //////////////  HEADER //////////////////////// */
+.header {
+    background-color: #F0F0F0;
+    padding: 30px 0px;
+}
+
+.box__left {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.header__right {
+    background-color: blue;
+}
+.header__left{
+    background-color: red;
+}
+
+.box__right {
+    background-color: #C4C4C4;
+    width: 34px;
+    height: 33px;
+    border-radius: 90px;
+}
+
+.box__right__4 {
+    width: 57px;
+    height: 57px;
+    margin-top: -20px;
+}
+
+/* //////////////  HEADER ///////////////////////////////*/
+
+
+/* /////////////  MAIN  //////////////////////////////// */
+.main {
+    margin-left: -40px;
+}
+
+
+/* //////  SECTION__1  ////// */
+.title__main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57px;
+    color: #000000;
+}
+
+.btn {
+    background-color: #0094FF;
+    color: white;
+    padding: 12px 50px;
+    border-radius: 6px;
+    transition: 1s ease-in-out;
+}
+
+.btn:hover {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+/* //////  SECTION__1  ////// */
+
+
+/* //////  SECTION__2  ////// */
+.title__section__2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.korobka {
+    width: 297px;
+    height: 194px;
+    background: #000000;
+}
+
+/* //////  SECTION__2  ////// */
+
+
+/* /////////////  MAIN  ///////////////////////////////// */
